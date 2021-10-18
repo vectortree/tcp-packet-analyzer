@@ -32,12 +32,13 @@ Summary:
 
 ~Part A~
 The number of TCP flows (initiated from the sender) was obtained by counting the number of pure SYNs.
+Assumption: Every flow starts with a SYN and ends with a FIN.
 (a) No explanation needed.
 (b) Only complete transactions (i.e., sender -> receiver and receiver -> sender) are included!
     Assumptions: A transaction is a pair of packets (i.e., sender -> receiver and receiver -> sender)
     such that the second packet is an ACK of the first. The first transaction is considered as the
     first packet pair (after the TCP connection establishment) that contains a payload (from sender to
-    receiver). An ACK is said to be piggy-backed if it contains a payload.
+    receiver). FINs are not included in transactions. An ACK is said to be piggy-backed if it contains a payload.
 (c) The following formula was used to calculate the sender throughput (approximately):
     
     *FORMULA*
