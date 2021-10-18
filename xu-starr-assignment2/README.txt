@@ -51,7 +51,7 @@ Assumption: Every flow starts with a SYN and ends with a FIN.
 (1) The first three congestion window sizes were estimated by counting the number of packets in the first
     three RTT windows. The three initial congestion window sizes (roughly) double for each window
     (i.e., it grows exponentially).
-    RTT was estimated at the sender using the initial RTT = Timestamp of first ACK - Timestamp of first
+    RTT was estimated at the sender using initial RTT = Timestamp of first ACK - Timestamp of first
     SYN (w.r.t. each TCP flow).
 (2) The number of retransmissions due to triple duplicate ACK (i.e., fast retransmissions) was
     obtained by getting the triple duplicate ACKs sent by the receiver and identifying the ones
