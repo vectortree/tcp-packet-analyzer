@@ -42,7 +42,6 @@ Assumption: Every flow starts with a SYN and ends with a FIN.
     receiver). FINs are not included in transactions. An ACK is said to be piggy-backed if it contains a payload.
 (c) The following formula was used to calculate the sender throughput (approximately):
     Sender Throughput = Sender bytes / Sender time span.
-    
     With respect to each TCP flow:
     Sender bytes is the total number of bytes (TCP header + payload) sent by the sender to the receiver.
     Sender time span = Timestamp of last TCP packet sent by sender - Timestamp of first TCP packet sent

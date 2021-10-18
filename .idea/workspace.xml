@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="864145a1-508c-4da8-8476-428df2d51516" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/xu-starr-assignment2/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/xu-starr-assignment2/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xu-starr-assignment2/test.pcap" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1634528805845</updated>
       <workItem from="1634528808981" duration="49000" />
-      <workItem from="1634569955069" duration="791000" />
+      <workItem from="1634569955069" duration="893000" />
     </task>
     <servers />
   </component>
