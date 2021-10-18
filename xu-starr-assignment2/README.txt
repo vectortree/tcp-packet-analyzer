@@ -35,7 +35,8 @@ The number of TCP flows (initiated from the sender) was obtained by counting the
 sent by the sender.
 Assumption: Every flow starts with a SYN and ends with a FIN.
 (a) No explanation needed.
-(b) Only complete transactions (i.e., sender -> receiver and receiver -> sender) are included!
+(b) Only complete transactions (i.e., sender -> receiver and receiver -> sender) containing
+    payloads (i.e., sender -> receiver) are included!
     Assumptions: A transaction is a pair of packets (i.e., sender -> receiver and receiver -> sender)
     such that the second packet is an ACK of the first. The first transaction is considered as the
     first packet pair (after the TCP connection establishment) that contains a payload (from sender to
