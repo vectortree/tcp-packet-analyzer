@@ -2,7 +2,8 @@
 
 This is a Python program that analyzes TCP packets. It was created as an assignment for my computer networking course (Fall 2021).
 
-Instructions:
+## Instructions
+
 When you first start the program, it should prompt you to input a PCAP file.
 
 ```
