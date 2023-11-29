@@ -1,6 +1,6 @@
 # TCP Packet Analyzer
 
-This is a Python program that analyzes TCP packets. It was created as an assignment for my computer networking course (Fall 2021).
+This is a Python program that analyzes TCP packets. It was created as an assignment for my computer networking course (Fall 2021). Please navigate to ```xu-starr-assignment2/analysis_pcap_tcp.py``` for the source code.
 
 ## Instructions
 
