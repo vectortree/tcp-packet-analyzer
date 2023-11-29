@@ -5,7 +5,7 @@ Instructions:
 When you first start the program, it should prompt you to input a PCAP file.
 
 *EXAMPLE*
-Please input a PCAP file for analysis: tcp-packet.pcap
+Please input a PCAP file for analysis: assignment2.pcap
 *END OF EXAMPLE*
 
 The first two lines of the output should display the number of TCP segments and flows.
